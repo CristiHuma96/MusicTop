@@ -1,0 +1,5 @@
+#fisier folosit pentru compilarea serverului&clientului TCP iterativ
+
+all:
+	g++ Main_server.cpp Client_Manager.cpp SignUp.cpp Connection.cpp -o server
+	g++ Main_client.cpp -o client
